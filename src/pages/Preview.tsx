@@ -85,7 +85,7 @@ export default function Preview() {
   function handleSubmit() {
     const validationErrors = validateAll();
     if (Object.keys(validationErrors).length === 0) {
-      alert("Form submitted successfully! (No backend in assignment)");
+      alert("Form submitted successfully!");
     } else {
       alert("Please fix the validation errors before submitting.");
     }
